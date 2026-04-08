@@ -1,0 +1,13 @@
+.DS_Store
+*/.DS_Store
+output*/
+*Output*/
+*model*/
+*checkpoints*/
+.*
+**/__pycache__/
+*.pyc
+!.gitignore
+**/.env
+*old*/
+*datasets*/
