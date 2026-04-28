@@ -6,7 +6,7 @@
 
 ## Additional Information
 - Python version (3.12.6) and Pip version (26.0.1). 
-
+- Environment used in experiments created using the `conda create -n localSyntheticData python=3.12.6` conda command.
 - All necessary packages can be installed using the `./requirements.txt` file. 
 - The pip package list was created using `pip list --format=freeze > requirements.txt` command.
 - Packages can be installed using the `sed 's/[<>=!].*//' requirements.txt | pip install -r /dev/stdin` command.
