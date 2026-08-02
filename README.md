@@ -1,6 +1,5 @@
 # Synthetic Local Document Generation
 
-
 ## Project overview
 **Fictitious Data Creation:** We use LangChain to generate synthetic data for use in the extension of [Measuring the Measuring Tools](https://doi.org/10.18653/v1/2022.gem-1.35) we implement using Biber dimensions and zero-shot prompting. 
 
@@ -12,13 +11,6 @@
 - Packages can be installed using the `sed 's/[<>=!].*//' requirements.txt | pip install -r /dev/stdin` command.
 - Additionally run the `python -m spacy download en_core_web_sm` command in your Python environment to install additional Spacy dependencies.
 
-## Order of Execution
-### `./dataGeneration`
-1. modelDownloading.ipynb
-2. generateReportsLangChain.ipynb
-3. postProcessing.ipynb
-4. analyseOutputs.ipynb
-
-## Limitations 
+## Notes 
 - Post-processing (`./dataGeneration/postProcessing.ipynb`) assumes dataset texts should be of a certain length and excludes texts that fall below the 10% and above the 90% percentiles regarding length; this step potentially removes relevant texts outside these lengths (but prevents extremely long texts making their way into further analysis).
 
