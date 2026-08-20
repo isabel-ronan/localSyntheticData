@@ -12,5 +12,5 @@
 - Additionally run the `python -m spacy download en_core_web_sm` command in your Python environment to install additional Spacy dependencies.
 
 ## Notes 
-- Post-processing (`./dataGeneration/postProcessing.ipynb`) assumes dataset texts should be of a certain length and excludes texts that fall below the 10% and above the 90% percentiles regarding length; this step potentially removes relevant texts outside these lengths (but prevents extremely long texts making their way into further analysis).
+- Post-processing assumes dataset texts should be of a certain length and excludes texts that fall below the 10% and above the 90% percentiles regarding length; this step potentially removes relevant texts outside these lengths (but prevents extremely long texts making their way into further analysis).
 
